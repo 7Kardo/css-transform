@@ -1,0 +1,22 @@
+.kardo{
+   width: 200px;
+   height: 200px;
+   background-color: tomato;
+   border-radius: 10px;
+   margin: 10rem auto;
+   text-align: center;
+   transition: .9s;
+   animation-name:kardo;
+   animation-duration: 3s;
+   animation-delay: 1ms;
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes kardo{
+  0%{transform: rotateX(45deg);}
+  50%{transform: translatex(100px);}
+   100%{transform: rotateY(180deg);
+   border-radius: 50%;
+background-color: black;}
+}
