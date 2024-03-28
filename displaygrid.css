@@ -20,11 +20,23 @@ body{
    animation-delay: 1ms;
    animation-iteration-count: infinite;
 }
+a{
+   margin: 1rem;
+}
 a img{
-   transition: 0.4s;
+   transition:all 0.4s;
 }
 a img:hover{
+  
    transform: scale(1.3);
+  
+}
+.kak{
+ position: absolute;
+  right: 3rem;
+  display: flex;
+  flex-direction: column-reverse;
+  
 }
 
 
